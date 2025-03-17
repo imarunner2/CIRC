@@ -22,8 +22,9 @@
 - You'll need the ability to telnet / ssh into the raspberry pi for this installation. This allows you to interact with the Raspberry PI from your workstation:
   - If you have a Mac you have a telnet client built in. (Go > Applications > Utilities > Terminal)
   - If you have a PC then you'll need to download something like [Putty](https://www.putty.org/)
+  - If you run Linux you can ssh from a terminal window.
 
-## Let's get the operating system installed:
+## Let's get the Hamclock's operating system installed:
 - Open the Pi imager:
 
 ![Raspberry Pi Imager](images/pi_imager.png "Raspberry Pi Imager")
@@ -117,7 +118,7 @@ Follow the official installation instructions from HamClock’s website.
 - Choose Option 3 (2400x1440)
 - start HamClock automatically each time Pi is booted? [y/n] - type y
   - (This adds a crontab entry.)
-- Build process takes ~8 minutes.
+- Build process takes about 8 minutes or so.
 
 Reboot the system:
 ```
